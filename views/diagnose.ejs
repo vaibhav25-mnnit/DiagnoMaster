@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,47 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diagnose</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
+<style>
+    body {
+        background-color: antiquewhite;
+    }
+
+    div label {
+        border: 2px solid black;
+        padding: 4px 8px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: cornflowerblue;
+    }
+
+    div input {
+        border: 2px solid black;
+        padding: 6px 8px 0px 8px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: lawngreen;
+    }
+
+    select {
+        border: 2px solid black;
+        padding: 6px 8px 0px 8px;
+        margin: 6px 4px;
+        border-radius: 5px;
+        background-color: lawngreen;
+    }
+
+    #gender option {
+        background-color: #9e9e9e;
+        background-color: #9e9e9e;
+    }
+
+    #but {
+        padding: 3px 6px 3px 6px;
+        font-size: 25px;
+        border-radius: 5px;
+        margin: 5px 5px;
+        background-color: lightcoral;
+        border: 2px solid black;
+    }
+
+    #but2 {
+        padding: 3px 6px 3px 6px;
+        font-size: 20px;
+        border-radius: 8px;
+        margin: 5px 5px;
+        background-color: rgb(228, 176, 161);
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    .divine {
+        margin: 20px 5px;
+        padding: 10px 0px;
+    }
+
+    #symptom option:nth-child(2n+0) {
+        background-color: rgb(230, 140, 140);
+    }
+
+    #symptom option:nth-child(2n+1) {
+        background-color: rgb(224, 32, 73);
+    }
+
+    #gender option {
+        background-color: lightcoral;
+    }
+
+    h3 {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    /* #myform{
+       margin: 6px 4px;
+   } */
+
+    .kk {
+        background-color: grey;
+    }
+</style>
 
 <body>
 
-    <div style="border: 2px solid red; text-align: center;">
+    <div class="kk" style="border: 2px solid black; text-align: center;">
 
         <form action="/diagnose" method="post" name="forms" id="forms">
 
-            <div>
+            <div class="divine">
                 <label for="Age">Age:</label>
-                <input type="number" name="Age" id="Age" required autocomplete="off" placeholder="i.e. 20">
+                <input type="number" name="Age" id="Age" required="" autocomplete="off" placeholder="i.e. 20">
             </div>
-            <div>
+            <div class="divine">
                 <label for="gender">Gender:</label>
                 <select name="gender" id="gender">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                 </select>
             </div>
-            <div>
+
+            <div class="divine">
                 <label for="IDs">Symptom IDs</label>
-                <input type="text" name="IDs" id="IDs" required autocomplete="off" placeholder="i.e. 9,10,11">
+                <input type="text" name="IDs" id="IDs" required="" autocomplete="off" placeholder="i.e. 9,10,11">
 
             </div>
 
-            <button type="submit">Submit</button>
-
+            <button id="but" type="submit">Submit</button>
         </form>
-
         <div>
-            <h3>Select the symptom form below dropdown and input it's obtained ID in Symptom ID's.
+            <h3>Select the symptom form below dropdown and input its obtained ID in symptom's IDs.
             </h3>
             <h3>
-                For more then one symptom enter IDs seperated by comma.
+                For more than one symptom enter IDs seperated by comma.
             </h3>
         </div>
+
+
+
         <form method=" " action=" " id="myform" name="myform" onsubmit="getid()">
 
             <label for="symptom">Select symptom to get it's id: </label>
             <select name="symptom" id="symptom">
-                <option value="Abdominal guarding"> Abdominal guarding</option>
+                <option id="mm" value="Abdominal guarding"> Abdominal guarding</option>
 
                 <option value="Abdominal pain"> Abdominal pain</option>
                 <option value="Abdominal pain associated with menstruation"> Abdominal pain associated with
@@ -349,16 +433,19 @@
 
             </select>
 
-            <button type="submit">submit</button>
+            <!-- <button type="submit">submit</button> -->
+            <button id="but" type="submit">Submit</button>
+
+
         </form>
 
         <div id="s" style="display: none;">
 
-
-            <h1>Id <span id="sym_id"></span> : <u><span id="ID"></span> </u></h1>
-
+            <h1>Id for <span id="sym_id"></span> : <u><span id="ID"></span> </u></h1>
 
         </div>
+        <a href="/user/dashboard"> <button id="but2" type="button" class="btn btn-link">Go to dashboard</button> </a>
+
     </div>
     <script>
 
@@ -399,6 +486,8 @@
 
 
     </script>
+
+
 </body>
 
 </html>
