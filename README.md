@@ -6,10 +6,10 @@
 
 > ## Table of content:
 
-- [Features](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#features)
-- [Technology Stack](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#techstack-used)
-- [Screen Shots](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#screen-shots)
-- [Contributors](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/README.md#Contributors)
+- [Features](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/README.md#features)
+- [Technology Stack](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/README.md#techstack-used)
+- [Screen Shots](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/README.md#screen-shots)
+- [Contributors](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/README.md#Contributors)
 
 ---
 
