@@ -16,7 +16,7 @@
 > ## **Features:**
 
 1. Login and signup using passport-local
-1. List of disease based on symptomes
+1. List of diseases based on symptoms
 1. gives the probability for certain disease based on
 1. route protection
 1. option to redirect user to list of all available hospitals near by
@@ -36,25 +36,25 @@
 
 > ## Screen Shots
 
-![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162400-min.png)
+![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss2.png)
 
 ---
 
-![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162236-min.png)
+![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss1.png)
 
 ---
 
-![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162522.png)
+![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss4.png)
 
 ---
 
-![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162143.png)
+![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss5.png)
 
 ---
 
-![ss](https://github.com/vaibhav25-mnnit/Event-Manager/blob/master/Screenshot%202020-11-02%20162602.png)
+![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss3.png)
 
-> ## Installation
+> ## Contributors
 
 - [Vaibhav Bagate](https://github.com/vaibhav25-mnnit)
 - [Saurabh Gupta](https://github.com/saurabh-38)
