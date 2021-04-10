@@ -16,7 +16,7 @@
 > ## **Features:**
 
 1. Login and signup using passport-local
-1. List of diseases based on symptoms
+1. gives List of diseases based on symptoms
 1. gives the probability for certain disease based on
 1. route protection
 1. option to redirect user to list of all available hospitals near by
