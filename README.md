@@ -36,10 +36,6 @@
 
 > ## Screen Shots
 
-![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss2.png)
-
----
-
 ![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss1.png)
 
 ---
@@ -51,9 +47,6 @@
 ![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss5.png)
 
 ---
-
-![ss](https://github.com/vaibhav25-mnnit/noob_coders/blob/master/screen_shots/ss3.png)
-
 > ## Contributors
 
 - [Vaibhav Bagate](https://github.com/vaibhav25-mnnit)
